@@ -1,0 +1,1308 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2023-10-03 12:59:02
+# Command line arguments: make_reweight_card.py --couplings 2 cW 1 cHW 1 cHDD 1 cHWB 1 cHbox 1 cHd 1 cHu 1 cHl3 1 cHq3 1 cHq1 1 cHB 1 cll1 1 --filename WWW_reweight_fixOct3.dat
+# Polynomial order: 2
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=EFTrwgt1_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt2_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt3_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt4_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt5_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt6_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt7_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt8_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt9_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt10_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt11_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt12_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt13_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt14_cW_2.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 2.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt15_cW_1.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt16_cW_1.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt17_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt18_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt19_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt20_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt21_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt22_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt23_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt24_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt25_cW_1.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 1.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt26_cW_0.0_cHW_2.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 2.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt27_cW_0.0_cHW_1.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt28_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt29_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt30_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt31_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt32_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt33_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt34_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt35_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt36_cW_0.0_cHW_1.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 1.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt37_cW_0.0_cHW_0.0_cHDD_2.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 2.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt38_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt39_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt40_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt41_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt42_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt43_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt44_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt45_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt46_cW_0.0_cHW_0.0_cHDD_1.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 1.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt47_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_2.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 2.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt48_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt49_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt50_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt51_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt52_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt53_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt54_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt55_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_1.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 1.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt56_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_2.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 2.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt57_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt58_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt59_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt60_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt61_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt62_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt63_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_1.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 1.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt64_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_2.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 2.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt65_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt66_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt67_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt68_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt69_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt70_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_1.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 1.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt71_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_2.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 2.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt72_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt73_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt74_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt75_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt76_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_1.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 1.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt77_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_2.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 2.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt78_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt79_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt80_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt81_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_1.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 1.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt82_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_2.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 2.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt83_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_1.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt84_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt85_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_1.0_cHq1_0.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 1.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt86_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_2.0_cHB_0.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 2.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt87_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_1.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 1.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt88_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_1.0_cHB_0.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 1.000000
+set cHB 0.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt89_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_2.0_cll1_0.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 2.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt90_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_1.0_cll1_1.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 1.000000
+set cll1 1.000000
+
+launch --rwgt_name=EFTrwgt91_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_2.0
+set cW 0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 2.000000
+
+launch --rwgt_name=EFTrwgt92_cW_0.3_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_0.0
+set cW  0.300000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 0.000000
+
+launch --rwgt_name=EFTrwgt93_cW_0.0_cHW_0.0_cHDD_0.0_cHWB_0.0_cHbox_0.0_cHd_0.0_cHu_0.0_cHl3_0.0_cHq3_0.0_cHq1_0.0_cHB_0.0_cll1_10.0
+set cW  0.000000
+set cHW 0.000000
+set cHDD 0.000000
+set cHWB 0.000000
+set cHbox 0.000000
+set cHd 0.000000
+set cHu 0.000000
+set cHl3 0.000000
+set cHq3 0.000000
+set cHq1 0.000000
+set cHB 0.000000
+set cll1 10.000000
