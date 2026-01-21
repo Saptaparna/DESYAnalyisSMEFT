@@ -1,0 +1,612 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2026-01-20 17:15:07
+# Command line arguments: make_reweight_card.py --couplings 2 FS0 1 FS1 1 FS2 1 FM0 1 FM1 1 FM7 1 FT0 1 FT1 1 FT2 1 --filename WWW_reweight_Dim8.dat
+# Polynomial order: 2
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=EFTrwgt1_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt2_FS0_1p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt3_FS0_0p_FS1_1p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt4_FS0_0p_FS1_0p_FS2_1p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt5_FS0_0p_FS1_0p_FS2_0p_FM0_1p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt6_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_1p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt7_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_1p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt8_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt9_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt10_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt11_FS0_2p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 2.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt12_FS0_1p_FS1_1p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt13_FS0_1p_FS1_0p_FS2_1p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt14_FS0_1p_FS1_0p_FS2_0p_FM0_1p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt15_FS0_1p_FS1_0p_FS2_0p_FM0_0p_FM1_1p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt16_FS0_1p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_1p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt17_FS0_1p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt18_FS0_1p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt19_FS0_1p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 1.0e-10
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt20_FS0_0p_FS1_2p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 2.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt21_FS0_0p_FS1_1p_FS2_1p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt22_FS0_0p_FS1_1p_FS2_0p_FM0_1p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt23_FS0_0p_FS1_1p_FS2_0p_FM0_0p_FM1_1p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt24_FS0_0p_FS1_1p_FS2_0p_FM0_0p_FM1_0p_FM7_1p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt25_FS0_0p_FS1_1p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt26_FS0_0p_FS1_1p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt27_FS0_0p_FS1_1p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 1.0e-10
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt28_FS0_0p_FS1_0p_FS2_2p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 2.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt29_FS0_0p_FS1_0p_FS2_1p_FM0_1p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt30_FS0_0p_FS1_0p_FS2_1p_FM0_0p_FM1_1p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt31_FS0_0p_FS1_0p_FS2_1p_FM0_0p_FM1_0p_FM7_1p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt32_FS0_0p_FS1_0p_FS2_1p_FM0_0p_FM1_0p_FM7_0p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt33_FS0_0p_FS1_0p_FS2_1p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt34_FS0_0p_FS1_0p_FS2_1p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 1.0e-10
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt35_FS0_0p_FS1_0p_FS2_0p_FM0_2p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 2.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt36_FS0_0p_FS1_0p_FS2_0p_FM0_1p_FM1_1p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt37_FS0_0p_FS1_0p_FS2_0p_FM0_1p_FM1_0p_FM7_1p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt38_FS0_0p_FS1_0p_FS2_0p_FM0_1p_FM1_0p_FM7_0p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt39_FS0_0p_FS1_0p_FS2_0p_FM0_1p_FM1_0p_FM7_0p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt40_FS0_0p_FS1_0p_FS2_0p_FM0_1p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 1.0e-11
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt41_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_2p_FM7_0p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 2.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt42_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_1p_FM7_1p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt43_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_1p_FM7_0p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt44_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_1p_FM7_0p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt45_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_1p_FM7_0p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 1.0e-11
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt46_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_2p_FT0_0p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 2.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt47_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_1p_FT0_1p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt48_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_1p_FT0_0p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt49_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_1p_FT0_0p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 1.0e-11
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt50_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_2p_FT1_0p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 2.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt51_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_1p_FT1_1p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 1.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt52_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_1p_FT1_0p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 1.0e-12
+set anoinputs 13 0.000000
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt53_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_2p_FT2_0p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 2.0e-12
+set anoinputs 14 0.000000
+
+launch --rwgt_name=EFTrwgt54_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_1p_FT2_1p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 1.0e-12
+set anoinputs 14 1.0e-12
+
+launch --rwgt_name=EFTrwgt55_FS0_0p_FS1_0p_FS2_0p_FM0_0p_FM1_0p_FM7_0p_FT0_0p_FT1_0p_FT2_2p
+set anoinputs 1 0.000000
+set anoinputs 2 0.000000
+set anoinputs 3 0.000000
+set anoinputs 4 0.000000
+set anoinputs 5 0.000000
+set anoinputs 11 0.000000
+set anoinputs 12 0.000000
+set anoinputs 13 0.000000
+set anoinputs 14 2.0e-12
+
