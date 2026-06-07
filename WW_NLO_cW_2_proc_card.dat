@@ -1,0 +1,10 @@
+import model SMEFTatNLO-NLO_no4q
+define p = g u c d s u~ c~ d~ s~ 
+define had = u c d s u~ c~ d~ s~
+define l+ = e+ mu+ ta+ 
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+
+generate    p p > w+ w- QCD=0 QED=2 NP=2 [QCD] @0
+output WW_NLO_cW_2 -nojpeg
